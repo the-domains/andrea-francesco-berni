@@ -1,28 +1,40 @@
-name: Andrea Francesco Berni
-favicon: null
-layout_spectrum: 0.3452702776994556
-typography_spectrum: 0.06769822048954666
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#B8B42D'
-    - '#697A21'
-    - '#FFFCE8'
-    - '#3E363F'
-    - '#DD403A'
-  brandStrength: 0.5094292482826859
-  lightness: 0.765178503235802
-  saturation: 0.10540782287716866
-  rhythmicContrast: 0.7116113272495568
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.1054078228771687
+  brandStrength: 0.7656642
+  lightness: 0.765178503235802
+  brandColors:
+    - '#509EE8'
+    - '#181C03'
+    - '#3C4C1D'
+    - '#60821D'
+    - '#46637D'
+  rhythmicContrast: 0.7116113272495568
+typography_spectrum: 0.06203008
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.7155389
+favicon: null
+name: Andrea Francesco Berni
